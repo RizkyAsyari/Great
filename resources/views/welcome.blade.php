@@ -74,7 +74,7 @@
                                                 <h4 class="mb-3 mb-md-0"
                                                     style="color:black;margin-top: 30px;text-align: center">All Is Well</h4>
                                                 <h4 class="mb-3 mb-md-0"
-                                                    style="color:black;margin-top: 30px;text-align: center">Every Thing Will Be Fine</h4>
+                                                    style="color:black;margin-top: 10px;text-align: center">Every Thing Will Be Fine</h4>
                                         </h3>
 
                                     </div>
