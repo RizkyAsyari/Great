@@ -2,7 +2,8 @@
 <html>
 
 <!-- Mirrored from www.nobleui.com/laravel/template/light/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 13:36:05 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
 <head>
     <title>App Greeting</title>
     <meta charset="utf-8">
@@ -37,7 +38,7 @@
                     <div class="card">
                         <div class="row">
                             <div class="col-md-4 pr-md-0">
-                                <div class="auth-left-wrapper" style="background-image: url(images/girl.jpg)">
+                                <div class="auth-left-wrapper" style="background-image: url(images/girl.jpg);">
 
                                 </div>
                             </div>
@@ -45,7 +46,7 @@
                                 <div class="auth-form-wrapper px-4 py-5">
                                     <a href="#" class="noble-ui-logo d-block mb-2">Kyas<span>DEV</span></a>
                                     <h3><p id="time" style="text-align: center"></p></h3>
-                                    <div id="contentDiv" style="text-align: center; margin-top: 20px" >
+                                    <div id="contentDiv" style="text-align: center; margin-top: 20px">
                                         <h3 class="text-primary">
                                             <?php
                                             date_default_timezone_set("Asia/Bangkok");
@@ -68,16 +69,20 @@
                                                         /* Finally, show good night if the time is greater than or equal to 1900 hours */
                                                         if ($time >= "19") {
                                                             echo "Good Night";
-                                                        }?> Rahma Fitri Asriani
+                                                        }?> Rizka Hafsari
 
-                                            <h4 class="mb-3 mb-md-0" style="color:black;margin-top: 30px;text-align: center">Start Your Day With Smile</h4>
+                                                <h4 class="mb-3 mb-md-0"
+                                                    style="color:black;margin-top: 30px;text-align: center">Start Your Day With Smile</h4>
                                         </h3>
 
                                     </div>
 
 
                                     <p style="text-align: center">
-                                        <button id="swal" type="button" class="btn btn-outline-primary" style="margin-top: 30px">Jangan Ditekan</button></p>
+                                        <button id="swal" type="button" class="btn btn-outline-primary"
+                                                style="margin-top: 30px">Jangan Ditekan
+                                        </button>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +93,6 @@
         </div>
     </div>
 </div>
-
 
 
 </body>
@@ -106,11 +110,11 @@
 <script type="text/javascript">
     function printSentence(id, sentence, speed) {
         var index = 0,
-            timer = setInterval(function() {
-                var char= sentence.charAt(index);
-                if(char === '<') index= sentence.indexOf('>',index);
-                document.getElementById(id).innerHTML= sentence.substr(0,index);
-                if(++index === sentence.length){
+            timer = setInterval(function () {
+                var char = sentence.charAt(index);
+                if (char === '<') index = sentence.indexOf('>', index);
+                document.getElementById(id).innerHTML = sentence.substr(0, index);
+                if (++index === sentence.length) {
                     clearInterval(timer);
                 }
             }, speed);
@@ -122,24 +126,6 @@
         70
     );
 
-    // var str = document.getElementById('typewriter').innerHTML,
-    //     i = 0,
-    //     isTag,
-    //     text;
-    //
-    // (function type() {
-    //     text = str.slice(0, ++i);
-    //     if (text === str) return;
-    //
-    //     document.getElementById('typewriter').innerHTML = text;
-    //
-    //     var char = text.slice(-1);
-    //     if( char === '<' ) isTag = true;
-    //     if( char === '>' ) isTag = false;
-    //
-    //     if (isTag) return type();
-    //     setTimeout(type, 80);
-    // }());
 
     (function () {
         function checkTime(i) {
@@ -154,11 +140,12 @@
                 h = checkTime(today.getHours()),
                 m = checkTime(today.getMinutes()),
                 s = checkTime(today.getSeconds());
-            document.getElementById('time').innerHTML = h + ":" + m + ":" + s ;
+            document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
             t = setTimeout(function () {
                 startTime()
             }, 500);
         }
+
         startTime();
     })()
 </script>
@@ -179,6 +166,7 @@
             imageAlt: 'Custom image',
         })
     })
+
 </script>
 
 <!-- Mirrored from www.nobleui.com/laravel/template/light/auth/login by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Mar 2020 13:36:05 GMT -->

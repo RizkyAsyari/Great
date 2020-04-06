@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="64d7327a-7d72-4bb7-992a-8611eec6999c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -19,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -149,7 +151,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585984474711</updated>
-      <workItem from="1585984476439" duration="2795000" />
+      <workItem from="1585984476439" duration="3590000" />
+      <workItem from="1586009944273" duration="881000" />
+      <workItem from="1586067044134" duration="622000" />
+      <workItem from="1586136148308" duration="139000" />
+      <workItem from="1586186445450" duration="249000" />
     </task>
     <servers />
   </component>
@@ -161,6 +167,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="532" y="343" key="ComposerInitDialogKey/0.0.1536.864@0.0.1536.864" timestamp="1585987841280" />
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1586186630194">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="444" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1586186630194" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585987815548">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
